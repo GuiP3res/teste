@@ -4,7 +4,6 @@ int main() {
     int senha;
     int senha_correta = 4321;
 
-    // Programador 5: Estrutura do-while, controle de senha
     do {
         printf("Digite a senha numérica de 4 dígitos: ");
         scanf("%d", &senha);
@@ -14,7 +13,7 @@ int main() {
         }
     } while (senha != senha_correta);
 
-    printf("Acesso concedido!\n");
+    printf("Acesso concedido! Senha correta.\n");
 
     return 0;
 }
